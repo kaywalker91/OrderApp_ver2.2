@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <TextView
+               android:layout_marginTop="30dp"
+               android:layout_marginBottom="30dp"
+               android:layout_marginLeft="20dp"
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:textSize="23sp"
+               android:text="안녕하세요. 스타벅스입니다."
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </TextView>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="안녕하세요"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:background="@drawable/button_round"
+                            android:id="@+id/btn_regi"
+                            android:layout_marginRight="20dp"
+                            android:text="회원가입"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </Button>
+
+                        <Button
+                            android:background="@drawable/button_round"
+                            android:text="로그인"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </Button>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+              <ImageView
+                  android:src="@drawable/home_coffee_icon"
+                  android:layout_width="0dp"
+                  android:layout_weight="3"
+                  android:layout_height="150dp">
+              </ImageView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/home_event_2"
+                android:src="@drawable/starbucks_wallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="650dp">
+            </ImageView>
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:id="@+id/home_event_3"
+                android:src="@drawable/starbucks_wallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="650dp">
+            </ImageView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
